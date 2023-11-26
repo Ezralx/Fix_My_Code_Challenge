@@ -1,8 +1,5 @@
-3-user.py
 #!/usr/bin/python3
-"""
- User Model
-"""
+# User Model
 import hashlib
 import uuid
 
@@ -102,4 +99,3 @@ password")
     if user_2.is_valid_password("No pwd"):
         print("is_valid_password should return False if no password set \
 before")
-        
